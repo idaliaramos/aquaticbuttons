@@ -30,7 +30,7 @@ class App extends Component {
         </header>
         <p>Press one button and it will change the other buttons color</p>
 
-        {/* //button1, when pressed button2 will change colors */}
+        {/* //button onClick will change the colors of the other button */}
         <button
           className="button"
           style={{ backgroundColor: bgColor2 }}
@@ -39,7 +39,7 @@ class App extends Component {
           Button 1
         </button>
 
-        {/* //button2, when pressed button1 will change colors */}
+        {/* //button onClick will change the colors of the other button */}
         <button
           className="button"
           style={{ backgroundColor: bgColor }}

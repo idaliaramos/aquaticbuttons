@@ -21,8 +21,8 @@ class App extends Component {
 
   render() {
     //set bgColors dependending on the state
-    let bgColor = this.state.pressed_button1 ? "#6FACC8" : "#E1BD5E";
-    let bgColor2 = this.state.pressed_button2 ? "#7AA6B2" : "#4F889B";
+    const bgColor = this.state.pressed_button1 ? "#6FACC8" : "#E1BD5E";
+    const bgColor2 = this.state.pressed_button2 ? "#7AA6B2" : "#4F889B";
     return (
       <div className="App">
         <header className="App-header">

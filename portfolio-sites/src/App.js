@@ -21,20 +21,22 @@ class App extends Component {
 
   render() {
     //set bgColors dependending on the state
-    let bgColor = this.state.pressed_button1 ? "#6FACC8" : "#DB9F40";
-    let bgColor2 = this.state.pressed_button2 ? "#D22E35" : "#D97C38";
+    let bgColor = this.state.pressed_button1 ? "#6FACC8" : "#E1BD5E";
+    let bgColor2 = this.state.pressed_button2 ? "#7AA6B2" : "#4F889B";
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">2 Button Site</h1>
+          <h1 className="App-title">Aquatic Buttons</h1>
         </header>
+        <p>Press one button and it will change the other buttons color</p>
+
         {/* //button1, when pressed button2 will change colors */}
         <button
           className="button"
           style={{ backgroundColor: bgColor2 }}
           onClick={this.changeColor2}
         >
-          Button1
+          Button 1
         </button>
 
         {/* //button2, when pressed button1 will change colors */}
@@ -48,20 +50,6 @@ class App extends Component {
       </div>
     );
   }
-  // render() {
-  //   let bgColor = this.state.color_black ? "black" : "white";
-  //
-  //   return (
-  //     <div>
-  //       <button
-  //         style={{ backgroundColor: bgColor }}
-  //         onClick={this.changeColor.bind(this)}
-  //       >
-  //         Button
-  //       </button>
-  //     </div>
-  //   );
-  // }
 }
 
 export default App;

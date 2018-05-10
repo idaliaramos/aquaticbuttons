@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #3c8776;
+  background-color: #cb3d37;
   height: 150px;
   padding: 20px;
   color: white;
@@ -22,8 +22,10 @@
   font-size: large;
 }
 .button {
-  height: 500px;
+  height: 700px;
   width: 50%;
+  font-size: 30px;
+  color: white;
 }
 
 @keyframes App-logo-spin {
